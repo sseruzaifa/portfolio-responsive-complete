@@ -193,8 +193,16 @@ img {
   row-gap: 5rem;
   padding: 4rem 0 5rem;
 }
+.works {
+  position: relative;
+  row-gap: 5rem;
+  padding: 4rem 0 5rem;
+}
 
 .home__data {
+  align-self: center;
+}
+.works__data {
   align-self: center;
 }
 
@@ -207,6 +215,10 @@ img {
   color: var(--first-color);
 }
 
+.home__social {
+  display: flex;
+  flex-direction: column;
+}
 .home__social {
   display: flex;
   flex-direction: column;
